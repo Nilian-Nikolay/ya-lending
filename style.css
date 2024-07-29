@@ -201,7 +201,7 @@
     display: flex;
     left: 11vh;
     top: 12.3vh;
-    Width: 89.5%;
+    Width: 188.5%;
     /* Height: 632px; */
     align-content: center;
     justify-content: space-between;
@@ -247,12 +247,13 @@
 .seans-place-text-up{
     font-size: 6.2vh;
     line-height: 7.6vh;
+    width: 103vh;
 }
 .seans-place-text-up span{
     color: #F54932;
 }
 .seans-place-text-down{
-    width: 73%;
+    width: 77%;
 }
 .event-table {
     width: 124%;
@@ -381,7 +382,7 @@ del {
     top: -13vh;
 }
 .airoplane-img{
-    width: 62vh;
+    width: 54vh;
     height: 36vh;
 }
 
@@ -656,6 +657,7 @@ del {
     .seans-place-text-up {
         font-size: 8.2vh;
         line-height: 7.6vh;
+        
     }
     .event-table {
         width: 152%;
