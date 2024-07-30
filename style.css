@@ -5,39 +5,49 @@
     /* box-sizing: border-box; */
 }
 
-/* .containerr{
-    width: 1920px;
+
+body,
+.header,
+.seans,
+.stage,
+.Participants,
+footer{
     display: flex;
-    justify-content: center;
-} */
+    flex-direction: column;
+    align-items: center;
+}
+
 .header{
     top: 0;
     left: 0;
     background-image: url(img/mainfon.png);
     background-size: cover;
-    /* width: 100vh; */
+    background-position: center;
+    width: 100%;
+
     height: 108.5vh;
     /* height: 100vh; */
     /* display: flex;
     justify-content: center; */
 }
 
-/* .container{
-    margin:7.5%;
-} */
+.container{
+    width: 1581px;
+}
 
 .logo{
-    position: absolute;
-    top: 4.4vh;
-    left: 11vh;
+    /* position: absolute; */
+    margin-top: 4.4vh; 
+    margin-bottom: 10vh;
+
     display: flex;
     align-items: center;
 
-    justify-content: center;
+    /* justify-content: center; */
 }
 .logo-img{
-    Width: 3.6vh;
-    Height: 5.3vh;
+    Width: 1.9%;
+
 
 }
 
@@ -45,12 +55,12 @@
 
     margin-left: 8px;
     font-family: "Golos Text";
-    font-size: 2.5vh;
+    font-size: 136%;
     font-weight: 700;
-    line-height: 2.1vh;
+    line-height: 75%;
     text-align: left;
-    width: 25vh;
-    height: 2.5vh;
+    /* width: 25vh; */
+    /* height: 1100%; */
     color: #595653;
 }
 
@@ -65,11 +75,11 @@
 
     font-family: "Merriweather";
     
-    position: absolute;
-    left: 93px;
-    top: 19.7%;
-    Width: 88.8vh;
-    Height: 76vh;
+    /* position: absolute; */
+    /* margin-left: 93px; */
+    /* margin-top: 19.7%; */
+    Width: 46.8%;
+    Height: 83%;
     
     /* font-weight: 700; */
 
@@ -77,40 +87,41 @@
     color: #313131;
 }
 .textUp-text{
-    font-size: 9.35vh;
-    line-height: 9.77vh;
+    font-size: 487%;
+    line-height: 104.77%;
 }
 .textDown-text{
-    font-size: 9.35vh;
+    font-size: 484%;
     text-align: center;
-    line-height: 10.5vh;
+    line-height: 114.5%;
+
 }
 .textDown{
-    position: relative;
-    left: 1.8vh;
-    top: 4.2vh;
+    /* position: relative; */
+    margin-top: 4.5%;
+    margin-bottom: 6.5%;
 
-    Width: 78vh;
-    Height: 10vh;
+    Width: 95%;
+    Height: 14%;
 
     
 }
 .Down-text{
-    font-size: 2.5vh;
-    line-height: 3.1vh;
+    font-size: 132%;
+    line-height: 127%;
     text-align: center;
 }
 .button-header{
-    position: relative;
-    width: 83.5vh;
-    height: 5.5vh;
+    /* position: relative; */
+    width: 94.5%;
+    height: 5.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    left: 0px;
-    top: 10vh;
+    /* left: 0px;
+    top: 10vh; */
     /* font-size: 18px; */
-    line-height: 2.8vh;
+    line-height: 161%;
     font-weight: 700;
     text-align: center;
 }
@@ -118,22 +129,22 @@
 
 .button-hd-text1,
 .button-hd-text2{
-    width: 26vh;
-    height: 5.5vh;
-    padding: 2.4vh 6.8vh;
-    border: 0.36vh solid #000000;
+    width: 32%;
+    height: 140%;
+    padding: 3.4% 7.8%;
+    border: 3px solid #000000;
     border-radius: 5.4vh;
     color: #595653;
     background-color: transparent;
     cursor: pointer;
 }
 .button-hd-text1{
-    font-size: 2.2vh;
+    font-size: 122%;
     color: #FFFFFF;
     background-color: #1F1F1F;
 }
 .button-hd-text2{
-    font-size: 2.5vh;
+    font-size: 142%;
     color: #595653;
     background-color: transparent;
 }
@@ -153,20 +164,19 @@
 
 
 .marquee {
-    
     width: 100%;
-    height: 9vh;
-
-
+    /* height: 9vh; */
+    margin-bottom: 3vh;
     overflow: hidden;
     background-color: #F54932;
     color: #fff;
-    font-size: 6.7vh;
+    font-size: 270%;
     white-space: nowrap;
     box-sizing: border-box;
 }
 
 .marquee-content {
+    margin-top: auto;
     display: inline-block;
     padding-left: 100%;
     animation: marquee 80s linear infinite;
@@ -191,76 +201,76 @@
 
 
 .seans{
-    width: 100vh;
+    width: 100%;
 }
 
 /**/
 
 .seans-header{
-    position: relative;
+    /* position: relative; */
     display: flex;
-    left: 11vh;
-    top: 12.3vh;
-    Width: 188.5%;
+    margin-left: 0%;
+    margin-top: 6.3%;
+    /* Width: 188.5%; */
     /* Height: 632px; */
     align-content: center;
     justify-content: space-between;
     align-items: center;
 }
 .seans-header-text{
-    width: 120vh;
-    font-size: 6.1vh;
-    line-height: 7.5vh;
+    width: 64%;
+    font-size: 322.2%;
+    line-height: 120%;
     /* text-align: center;*/
 }
 .seans-header-text span{
     color: #F54932;
 }
 .seans-header-img{
-    width: 61vh;
-    height: 39vh;
+    width: 33%;
+
 
 }
 .seans-place{
     position: relative;
     display: flex;
-    top: 15.1vh;
+    margin-top: 1.3%;
+    align-items: center;
     /* left: 93px; */
 }
 .seans-place-img{
-    position: relative;
-    left: 7vh;
-    width: 82vh;
-    height: 95vh;
+    width: 41%;
+    height: 50%;
 }
 .seans-place-text{
     display: flex;
-    position: relative;
-    left: 9vh;
+    /* position: relative; */
+    margin-left: 1.4%;
     top: 1.6vh;
     flex-direction: column;
     justify-content: center;
-    width: 108vh;
+    width: 60%;
 }
 
 
 .seans-place-text-up{
-    font-size: 6.2vh;
-    line-height: 7.6vh;
-    width: 103vh;
+    font-size: 311%;
+    margin-top: 6%;
+    line-height: 129%;
+    width: 100%;
 }
 .seans-place-text-up span{
     color: #F54932;
 }
 .seans-place-text-down{
-    width: 77%;
+    width: 72%;
 }
 .event-table {
     width: 124%;
     border-collapse: collapse;
     margin: 56px 0;
-    font-size: 3.5vh;
-    line-height: 6.3vh;
+    font-size: 165%;
+    line-height: 197%;
 }
 
 .event-table td {
@@ -285,11 +295,11 @@ del {
 
 .seans-place-text-down-text{
     position: relative;
-    font-size: 3.5vh;
+    font-size: 186%;
     line-height: 4.5vh;
     color: #3057A2;
-    width: 100vh;
-    top: -15px;
+    width: 150%;
+    top: -22px;
 }
 
 
@@ -302,30 +312,32 @@ del {
 
 
 .stage{
-    position: relative;
-    left: 11vh;
-    top: 40vh;
-    width: 100vh;
-    height: 110vh;
+    /* position: relative; */
+    /* left: 11vh;
+    top: 40vh; */
+    width: 100%;
+    margin-top: 235px;
+    /* height: 110vh;*/
 }
 .stage-header{
-    width: 110vh;
+    width: 60%;
     height: 18vh;
-    line-height: 24px;
+    /* line-height: 24px; */
 }
 .stage-header-text{
-    position: absolute;
-    font-size: 9vh;
-    line-height: 10vh;
-    width: 110vh;
+    /* position: absolute; */
+    font-size: 483%;
+    line-height: 103%;
+    /* width: 60%; */
+
 }
 .stage-text{
     position: relative;
-    font-size: 3.5vh;
-    line-height: 4vh;
-    left: 47vh;
-    top: 11vh;
-    width: 40vh;
+    font-size: 187%;
+    line-height: 97%;
+    left: 46%;
+    top: -47%;
+    width: 40%;
     color: #3057A2;
 }
 
@@ -333,10 +345,8 @@ del {
 
 
 .stage-cards{
-    position: relative;
-    left: -1vh;
-    top: 9vh;
-    width: 190vh;
+    width: 100%;
+    margin-top: 5%;
     /* display: flex;
     flex-wrap: wrap; */
 
@@ -344,31 +354,34 @@ del {
 }
 
 .stage-card{
-    width: 55vh;
-    height: 11vh;
+    width: 42%;
+    height: 16vh;
     display: flex;
-    padding: 3.1vh;
-    padding-top: 3.8vh;
+    padding: 2.1% 0.5% 3.1% 2.1%;
+    /* padding-top: 3.8%; */
     margin: 10px;
-    
     background-image: url(img/image.png);
     background-blend-mode: color-burn;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    font-size: 3.54vh;
+    font-size: 187%;
     color: #000000;
 }
 
+.first-four-lines{
+    width: 100%;
 
+}
 .first-five{
     display: flex;
     /* justify-content: space-between; */
 }
 .stage-card3{
-    width: 55vh;
-    height: 31vh;
+    position: relative;
+    width: 36%;
+    height: 38vh;
+    left: -5%;
 }
 
 .stage-card-6-7{
@@ -378,22 +391,22 @@ del {
 }
 .airoplane{
     position: absolute;
-    left: 138vh;
-    top: -13vh;
+    left: 72%;
+    top: -46%;
 }
 .airoplane-img{
-    width: 54vh;
-    height: 36vh;
+    width: 112%;
+    /* height: 36vh; */
 }
 
 .stage-card6{
-    width: 55vh;
+    width: 29%;
     height: 15vh;
 }
 .stage-card7{
-    width: 70vh;
+    width: 37%;
     height: 15vh;
-    padding-right: 51vh;
+    padding-right: 22%;
 }
 
 
@@ -429,10 +442,9 @@ del {
 
 
 .Participants{
-    position: relative;
-    left: 11vh;
-    top: 51vh;
-    width: 190vh;
+    width: 100%;
+    margin-top: 7%;
+
 }
 .Participants-header{
     display: flex;
@@ -447,7 +459,7 @@ del {
 }
 
 .Participants-text{
-    font-size: 9vh;
+    font-size: 470%;
     line-height: 4vh;
     
 }
@@ -490,8 +502,8 @@ del {
     align-items: center;
 }
 .Participants-human-img{
-    width: 50vh;
-    height: 50vh;
+    width: 86%;
+    height: 86%;
     margin-bottom: 4vh;
 }
 .Participants-human-text{
@@ -501,14 +513,14 @@ del {
 }
 .Participants-human-text-name{
     
-    font-size: 4.4vh;
+    font-size: 224%;
 }
 .Participants-human-text-country{
     color: #313131a0;
-    font-size: 3.5vh;
+    font-size: 175%;
 }
 .Participants-human-text-button{
-    font-size: 3vh;
+    font-size: 150%;
     margin-top: 3vh;
 
     padding: 1.1vh 2vh;
@@ -554,22 +566,24 @@ del {
 
 
 .mar2{
-    position: relative;
-    top: 72vh;
+    margin-top: 11%;
 }
 
 
 
 
-
-
+footer{
+    background-color: #E9DED4;
+    width: 100%;
+    margin-top: -3vh;
+}
 
 .footer-text {
     font-family: "Golos Text";
     position: relative;
-    top: 72vh;
+    /* top: 72vh; */
     padding: 7vh 11vh;
-    font-size: 2.5vh;
+    font-size: 155%;
     line-height: 3vh;
     color: #313131;
     background-color: #E9DED4;
@@ -586,206 +600,538 @@ del {
 
 
 
+
+
+@media (max-width: 1700px) {
+    .container{
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 2200px) {
+    .stage-text{
+        top: -20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 440px) {
-    .header,
-    .marquee,
-    .seans-header,
-    .stage,
-    .Participants,
-    .footer-text,
-    
+
+    .textUp-text,
+    .textDown-text,
+    .seans-place-text-up,
     .seans-header-text,
-    .seans-place-text,
-    .seans-place-text-down-text,
-    .stage-header,
     .stage-header-text,
-    .stage-cards{
-        width: 102.15vh;
-    }
-
-    .first-five{
-        width: 10vh;
-    }
-    
-    .header{
-        height: 222vh;
-        /* left: -1110vh; */
-    }
-    .seans-header-img {
-        margin-bottom: 10vh;
-    }
-    .seans-header {
-
-        flex-direction: column-reverse;
-    }
-    .Down-text,
-    .textDown{
-        Height: 51vh;
-        width: 90vh;
-        left: -5vh;
-        font-size: 5vh;
-        line-height: 8vh;
-        text-align: start;
-
-    }
-    
-    .button-header{
-
-        flex-direction: column;
-        width: 83.5vh;
-        height: 40.5vh;
-        
-    }
-    .button-hd-text1,
-    .button-hd-text2{
-        margin-bottom: 5vh;
-        font-size: 6.2vh;
-        line-height: 6vh;
-    }
-    .button-hd-text1, .button-hd-text2{
-        width: 75vh;
-        height: 12.5vh;
-    }
-    .seans-header-text{
-        font-size: 8.1vh;
-        line-height: 9.5vh;
-    }
-    .seans-header-img{
-        width: 75vh;
-        height: 55vh;
-    }
-    .seans-place-text-up {
-        font-size: 8.2vh;
-        line-height: 7.6vh;
-        
-    }
-    .event-table {
-        width: 152%;
-        border-collapse: collapse;
-        margin: 68px 0;
-        font-size: 5.5vh;
-        line-height: 11.3vh;
-    }
-    .stage-text {
-        position: relative;
-        font-size: 3.5vh;
-        line-height: 4vh;
-        left: 47vh;
-        top: 21vh;
-        width: 40vh;
-        /* margin-bottom: 15vh; */
-        color: #3057A2;
-    }
-
-    .stage-card {
-        width: 70vh;
-    }
-    .stage-header{
-        margin-bottom: 5vh;
+    .stage-text,
+    .Participants-text{
+        font-size: 100%;
     }
 
 
-    .stage-cards{
-        top: 30vh;
-    }
+    .first-five,
     .first-four-line1,
     .first-four-line2,
-    .first-five,
-    .stage-card-6-7{
-        flex-direction: column;
-    }
-
-    .stage-card3{
-        /* width: 70vh; */
-        height: 15vh;
-    }
-    .stage-card7{
-        height: 20vh;
-        width: 63vh;
-        padding-right: 10vh;
-
-    }
-    .airoplane {
-
-        top: -131vh;
-    }
-
-    .Participants{
-        top: 160vh;
-    }
-    .Participants-header {
-
-        flex-direction: column;
-    }
-    .Participants-navigation-button {
-        width: 21vh;
-        height: 21vh;
-    }
-    .Participants-navigation-text {
-        font-size: 10vh;
-    }
-
-
-
-    .Participants-human {
-        margin-bottom: 5vh;
-    }
-    .Participants-human-text-name {
-        font-size: 7.4vh;
-    }
-    .Participants-human-text-country {
-        font-size: 4.5vh;
-    }
-    .Participants-human-text-button {
-        font-size: 6vh;
-    }
-    .Participants-human-text {
-
-        width: 75vh;
-    }
-
-
-    .Participants-page.active {
-        flex-direction: column;
-        position: relative;
-        left: 35%;
-    }
-
-
-    .mar2,
-    .footer-text {
-        
-        top: 165vh;
-    }
-
-
-
-
-    
-    .Participants,
-    .seans-place-text-down-text,
-    .footer-text,
-    .seans-place-text,
-    .seans-header-text,
-    .stage,
-    .stage-header,
-    .stage-header-text,
-    .stage-cards,
-    .seans-header{
-        width: 80vh;
-    }
-
-    .seans-header,
+    .stage-card-6-7,
     .seans-place{
         flex-wrap: wrap;
     }
 
-    .Participants-text{
-        line-height: 10vh;
+
+    .logo-img {
+        Width: 5.9%;
+    }
+
+    .content{
+        width: 100%;
+    }
+    .textUp-text,
+    .textDown-text{
+        font-size: 232%;
+    }
+    .textDown {
+        Height: 30%;
+    }
+    .Down-text {
+        font-size: 119%;
+    }
+
+    .button-header {
+
+        /* position: relative; */
+        width: 99.5%;
+        height: 32.5%;
+        flex-direction: column;
+    }
+    .button-hd-text1, .button-hd-text2 {
+        width: 90%;
+        margin-bottom: 1vh;
+    }
+    .button-hd-text2 {
+        background-color: #ececec7d;
+        color: #000000;
     }
 
 
-    .airoplane{
-        left: 0vh;
+    .seans-header {
+ 
+        flex-direction: column-reverse;
     }
+    .seans-header-text {
+        width: 96%;
+        font-size: 150%;
+        margin-top: 10%;
+    }
+    .seans-header-img {
+        width: 74%;
+    }
+    .seans-place-img {
+        width: 97%;
+    }
+
+
+    .seans-place-text {
+        width: 99%;
+    }
+    .seans-place-text-up {
+        font-size: 126%;
+    }
+
+    .seans-place-text-down-text {
+        font-size: 82%;
+    }
+    
+
+    .stage {
+        margin-top: 30px;
+    }
+    .stage-header {
+        width: 95%;
+        height: 10vh;
+    }
+    .stage-header-text{
+        font-size: 170%;
+    }
+    .stage-text {
+
+        top: -30%;
+        width: 60%;
+    }
+
+    .stage-card {
+        width: 100%;
+        height: 16vh;
+
+        font-size: 144%;
+
+    }
+    .stage-card3 {
+        width: 92%;
+        height: 23vh;
+        left: 0%;
+    }
+    .stage-card7 {
+        width: 93%;
+        height: 32vh;
+        padding-right: 11%;
+    }
+
+
+
+    .event-table {
+        width: 144%;
+        font-size: 110%;
+    }
+
+
+
+
+
+
+    .Participants-header {
+        flex-wrap: wrap;
+    }
+    .Participants-text {
+        font-size: 190%;
+    }
+
+    .Participants-page.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Participants-human {
+        width: 66%;
+        margin-bottom: 2vh;
+    }
+    .Participants-human-text-name {
+        font-size: 132%;
+    }
+    .Participants-human-text-country {
+        font-size: 102%;
+    }
+    .Participants-human-text-button {
+        font-size: 124%;
+        margin-top: 1vh;
+    }
+    .Participants-header {
+        margin-bottom: 1vh;
+    }
+
+
+
+
+    .footer-text {
+        padding: 2vh 2vh;
+        font-size: 95%;
+
+    }
+    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*ДЛЯ МАСТАБИРУЕМОСТИ 100+*/
+
+@media (min-width: 441px) and (max-width: 1700px) {
+
+    body,
+    /* .header, */
+    .seans,
+    .stage,
+    .Participants{
+        display:block;
+    }
+    .logo{
+        top: 4.4vh;
+        left: 11vh;
+    }
+    .logo-img{
+        Width: 3.6vh;
+        Height: 5.3vh;
+    }
+    .logo-text{
+        margin-left: 8px;
+        font-size: 2.5vh;
+        line-height: 2.1vh;
+        width: 25vh;
+        height: 2.5vh;
+    }
+    .content{
+        left: 93px;
+        top: 19.7%;
+        Width: 88.8vh;
+        Height: 76vh;
+    }
+    .textUp-text{
+        font-size: 9.35vh;
+        line-height: 9.77vh;
+    }
+    .textDown-text{
+        font-size: 9.35vh;
+        line-height: 10.5vh;
+    }
+    .textDown{
+        left: 1.8vh;
+        top: 4.2vh;
+        Width: 78vh;
+        Height: 10vh;
+    }
+    .Down-text{
+        font-size: 2.5vh;
+        line-height: 3.1vh;
+    }
+    .button-header{
+        width: 83.5vh;
+        height: 5.5vh;
+        left: 0px;
+        top: 10vh;
+        line-height: 2.8vh;
+        font-weight: 700;
+    }
+    .button-hd-text1,
+    .button-hd-text2{
+        width: 26vh;
+        height: 5.5vh;
+        padding: 2.4vh 6.8vh;
+        border: 0.36vh solid #000000;
+        border-radius: 5.4vh;
+    }
+    .button-hd-text1{
+        font-size: 2.2vh;
+    }
+    .button-hd-text2{
+        font-size: 2.5vh;
+    }
+    .marquee {
+        width: 100%;
+        height: 9vh;
+        font-size: 6.7vh;
+    }
+    .seans{
+        width: 100vh;
+    }
+    .seans-header{
+        position: relative;
+        display: flex;
+        left: 11vh;
+        top: 12.3vh;
+        Width: 188.5%;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .seans-header-text{
+        width: 120vh;
+        font-size: 6.1vh;
+        line-height: 7.5vh;
+    }
+    .seans-header-img{
+        width: 61vh;
+        height: 39vh;
+    }
+    .seans-place{
+        position: relative;
+        display: flex;
+        top: 15.1vh;
+    }
+    .seans-place-img{
+        position: relative;
+        left: 7vh;
+        width: 82vh;
+        height: 95vh;
+    }
+    .seans-place-text{
+        display: flex;
+        position: relative;
+        left: 9vh;
+        top: 1.6vh;
+        flex-direction: column;
+        justify-content: center;
+        width: 108vh;
+    }
+    .seans-place-text-up{
+        font-size: 6.2vh;
+        line-height: 7.6vh;
+        width: 103vh;
+    }
+    .seans-place-text-down{
+        width: 77%;
+    }
+    .event-table {
+        width: 124%;
+        border-collapse: collapse;
+        margin: 56px 0;
+        font-size: 3.5vh;
+        line-height: 6.3vh;
+    }
+    .event-table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        vertical-align: top;
+    }
+    .event-table td:first-child {
+        font-weight: bold;
+        width: 50%;
+    }
+    .event-table td:last-child {
+        text-align: left;
+    }
+    .seans-place-text-down-text{
+        position: relative;
+        font-size: 3.5vh;
+        line-height: 4.5vh;
+        width: 100vh;
+        top: -15px;
+    }
+    .stage{
+        position: relative;
+        left: 11vh;
+        width: 100vh;
+        height: 110vh;
+    }
+    .stage-header{
+        width: 110vh;
+        height: 18vh;
+        line-height: 24px;
+    }
+    .stage-header-text{
+        position: absolute;
+        font-size: 9vh;
+        line-height: 10vh;
+        width: 110vh;
+    }
+    .stage-text{
+        position: relative;
+        font-size: 3.5vh;
+        line-height: 4vh;
+        left: 47vh;
+        top: 11vh;
+        width: 40vh;
+    }
+    .stage-cards{
+        position: relative;
+        left: -1vh;
+        top: 9vh;
+        width: 190vh;
+    }
+    .stage-card{
+        width: 55vh;
+        height: 11vh;
+        display: flex;
+        padding: 3.1vh;
+        padding-top: 3.8vh;
+        margin: 10px;
+        font-size: 3.54vh;
+
+    }
+    .first-five{
+        display: flex;
+    }
+    .stage-card3{
+        width: 55vh;
+        height: 31vh;
+        left: 0;
+    }
+    .stage-card-6-7{
+        position: relative;
+        display: flex;
+    }
+    .airoplane{
+        position: absolute;
+        left: 138vh;
+        top: -13vh;
+    }
+    .airoplane-img{
+        width: 54vh;
+        height: 36vh;
+    }
+    .stage-card6{
+        width: 55vh;
+        height: 15vh;
+    }
+    .stage-card7{
+        width: 70vh;
+        height: 15vh;
+        padding-right: 51vh;
+    }
+    .stage-card-number{
+        margin-right: 3vh;
+        width: 5vh;
+        height: 3vh;
+        border-radius: 50%;
+        padding: 1vh;
+        text-align: center;
+        
+    }
+    .stage-card-text{
+        line-height: 3.5vh;
+    }
+    .first-four-line1,
+    .first-four-line2{
+        display: flex;
+    }
+    .Participants{
+        position: relative;
+        left: 11vh;
+        width: 190vh;
+    }
+    .Participants-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 9vh;
+    }
+    .Participants-navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Participants-text{
+        font-size: 9vh;
+        line-height: 4vh;
+    }
+    .Participants-navigation-button{
+        width: 5vh;
+        height: 5vh;
+        border-radius: 50%;
+        margin: 3vh;
+    }
+    .Participants-navigation-button-img{
+        width: 30%;
+        height: 40%;
+        position: relative;
+        left: 35%;
+        top: 30%;
+    }
+    .left{
+        transform: rotate(180deg);
+    }
+    .Participants-navigation-text{
+        font-size: 3vh;
+        line-height: 4vh;
+    }
+    .Participants-humans{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Participants-human{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Participants-human-img{
+        width: 50vh;
+        height: 50vh;
+        margin-bottom: 4vh;
+    }
+    .Participants-human-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Participants-human-text-name{
+        font-size: 4.4vh;
+    }
+    .Participants-human-text-country{
+        font-size: 3.5vh;
+    }
+    .Participants-human-text-button{
+        font-size: 3vh;
+        margin-top: 3vh;
+
+        padding: 1.1vh 2vh;
+        background-color: transparent;
+
+        border: 1px solid #3057A2;
+        border-radius: 50px;
+    }
+    .Participants-human {
+        width: 30%; 
+    }
+     .footer-text {
+        font-size: 2.5vh;
+    } 
+}
+
+
