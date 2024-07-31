@@ -558,7 +558,7 @@ del {
 }
 
 .Participants-human {
-    width: 30%; /* Или другое подходящее значение */
+    width: 30%; 
 }
 
 
@@ -815,10 +815,10 @@ footer{
 }
 @media (max-width: 440px) {
     .stage-card {
-        display: none; /* Hide all cards initially */
+        display: none; 
     }
     .stage-card.active {
-        display: block; /* Show active card */
+        display: block; 
     }
     .stage-navigation {
         display: flex;
@@ -853,7 +853,7 @@ footer{
 }
 @media (min-width: 441px) {
     .stage-navigation {
-        display: none; /* Скрываем навигацию */
+        display: none; 
     }
 }
 

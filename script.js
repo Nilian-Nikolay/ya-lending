@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function createPages() {
         const participants = document.querySelectorAll('.Participants-human');
         const numPages = Math.ceil(participants.length / participantsPerPage);
-        carouselContainer.innerHTML = ''; // Clear existing pages
+        carouselContainer.innerHTML = ''; 
     
         for (let i = 0; i < numPages; i++) {
             const page = document.createElement('div');
@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             carouselContainer.appendChild(page);
         }
-        pages = document.querySelectorAll('.Participants-page'); // Update pages NodeList
-        showPage(0); // Reset to first page
+        pages = document.querySelectorAll('.Participants-page'); 
+        showPage(0); 
     }
 
     function updatePageDisplay(pageIndex) {
-        // Обновление текста с учетом текущей страницы и общего количества страниц
+        
         const totalPages = pages.length;
         totalParticipantsSpan.textContent = `${pageIndex + 1}/${totalPages}`;
     }
@@ -59,10 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('resize', function() {
         participantsPerPage = window.innerWidth <= 440 ? 1 : 3;
-        createPages(); // Recreate pages on resize
+        createPages(); 
     });
 
-    createPages(); // Initial page creation
+    createPages(); 
 });
 
 
@@ -91,5 +91,5 @@ document.addEventListener('DOMContentLoaded', function() {
         showCard(currentCard);
     });
 
-    showCard(0); // Initialize the carousel by showing the first card
+    showCard(0); 
 });
