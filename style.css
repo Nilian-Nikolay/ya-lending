@@ -801,10 +801,61 @@ footer{
 
 
 
+@media (max-width: 440px) {
+    .Participants-page {
+        display: none;
+    }
+    .Participants-page.active {
+        display: block;
+    }
+    .Participants-human {
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width: 440px) {
+    .stage-card {
+        display: none; /* Hide all cards initially */
+    }
+    .stage-card.active {
+        display: block; /* Show active card */
+    }
+    .stage-navigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+ 
+    }
+    .airoplane {
+        display: none;
+    }
+    .stage-navigation button {
+        background-color: #a19483;
+        color: white;
+        border: none;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 23px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        
+    
+    }
+    
+    .stage-navigation button:hover {
+        background-color: #696b69; 
+    }
 
 
-
-
+}
+@media (min-width: 441px) {
+    .stage-navigation {
+        display: none; /* Скрываем навигацию */
+    }
+}
 
 
 
